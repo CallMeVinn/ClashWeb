@@ -56,7 +56,7 @@ export default function Home({data}) {
     }, 500)
   }, [])
 
-  const handleCompareCard = () => router.push("/compareplayers");
+  const handleCompareCard = () => router.push("/compareprofile");
   const handleSearchCard = () => router.push("/player");
   const cardData = [
     {
@@ -196,7 +196,7 @@ export default function Home({data}) {
 }
 
 // export async function getServerSideProps() {
-//   const locationId = 32000113;
+//   const locationId = 32000114;
 //   const limit = 10;
 //   const endpoints = [
 //     'players',
@@ -261,7 +261,7 @@ export default function Home({data}) {
 // }
 
 export async function getServerSideProps() {
-  const locationId = 32000113;
+  const locationId = 32000114;
   const limit = 10;
   const endpoints = [
     'players',

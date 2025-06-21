@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.min.css';
 
-const compareplayers = () => {
+const compareprofile = () => {
   const [playerOne , setPlayerOne] = useState("");
   const [playerTwo , setPlayerTwo] = useState("");
   const handleChangePlayerOne = (e) => setPlayerOne(e.target.value);
@@ -68,4 +68,4 @@ const compareplayers = () => {
   );
 }
 
-export default compareplayers;
+export default compareprofile;

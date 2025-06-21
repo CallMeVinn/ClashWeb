@@ -27,12 +27,12 @@ const IndexCaraousal = ({ data }) => {
     <div ref={sliderRef} className="keen-slider bg-gradient-to-b from-violet-500/40 via-violet-500/20 to-violet-500/0">
       <div className="keen-slider__slide flex flex-col justify-start items-start p-12 sm:p-24">
         <Text weight="extrabold" size={72} css={{ lineHeight: "1.25" }}>
-          INDIAN RANKINGS
+          TOP RANKING INDONESIA
         </Text>
         <Text weight="normal" size={26}>
-          Players & Clan Rankings &#127942;
+          Daftar rank Pemain dan Klan&#127942;
         </Text>
-        <Text weight="normal" size={24}>Swipe to see..</Text>
+        <Text weight="normal" size={24}>Geser untuk melihat selengkapnya...</Text>
       </div>
       {entries.map(([key, item], index) => (
         <div key={key} className="keen-slider__slide py-6 sm:py-12 px-6">

@@ -16,14 +16,14 @@ const NavbarMain = () => {
       link: "/"
     },
     {
-      name: "Search clan/player",
+      name: "Search Clan/Player",
       link: "/player"
     },
     {
-      name: "Compare",
-      link: "/compareplayers"
+      name: "Compare Profile",
+      link: "/compareprofile"
     },
-    {
+    /*{
       name: "My Teams",
       link: "/teams"
     },
@@ -38,11 +38,9 @@ const NavbarMain = () => {
     {
       name: "Global chat",
       link: "/globalchat"
-    },
+    },*/
   ];  
-  const filteredCollapseItems = session?.user
-  ? collapseItems.filter(item => item.name !== "Log In")
-  : collapseItems;
+  const filteredCollapseItems = collapseItems; // session?.user ? collapseItems.filter(item => item.name !== "Log In") : collapseItems;
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
   console.log(session?.user)
@@ -56,15 +54,15 @@ const NavbarMain = () => {
           <Navbar.Link href="/">
             Home
           </Navbar.Link>
-          <Navbar.Link href="/teams">My Teams</Navbar.Link>
+          {/* <Navbar.Link href="/teams">My Teams</Navbar.Link> */}
           <Navbar.Link href="/player" css={{'&:focus': {
             outlineColor: '$pink400',
-          },}}>Search</Navbar.Link>
-          <Navbar.Link href="/playerData/2LQUJU9YC">Sample profile</Navbar.Link>
-          <Navbar.Link href="/compareplayers">Compare</Navbar.Link>
+          },}}>Search Player</Navbar.Link>
+          {/*<Navbar.Link href="/playerData/2LQUJU9YC">Sample profile</Navbar.Link> */}
+          <Navbar.Link href="/compareprofile">Compare Profile</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
-        <Navbar.Item>
+        {/* <Navbar.Item>
           {!session?.user ? 
             <Button auto size="sm" flat color="secondary" onClick={()=> router.push("/auth/login")}>
               Sign In
@@ -111,7 +109,7 @@ const NavbarMain = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>}
-          </Navbar.Item>
+          </Navbar.Item> */}
           <Navbar.Item>
           <Lightbulb
                 className={`scale-150 ${!isDark ? "text-yellow-500" : ""} font-bold pr-2 pb-[2px]`}
