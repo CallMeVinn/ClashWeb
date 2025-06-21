@@ -16,12 +16,12 @@ const NavbarMain = () => {
       link: "/"
     },
     {
-      name: "Search Clan/Player",
+      name: "Search",
       link: "/search"
     },
     {
-      name: "Compare Profile",
-      link: "/compareprofile"
+      name: "Compare",
+      link: "/compare"
     },
     /*{
       name: "My Teams",
@@ -59,7 +59,7 @@ const NavbarMain = () => {
             outlineColor: '$pink400',
           },}}>Search</Navbar.Link>
           {/*<Navbar.Link href="/player/2LQUJU9YC">Sample profile</Navbar.Link> */}
-          <Navbar.Link href="/compareprofile">Compare</Navbar.Link>
+          <Navbar.Link href="/compare">Compare</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
         {/* <Navbar.Item>

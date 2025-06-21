@@ -14,7 +14,7 @@ const compareprofile = () => {
   const handleSubmit = () => {
     if (playerOne && playerTwo) {
       const compareTags = [playerOne.replace("#",""), playerTwo.replace("#","")];
-      router.push(`./compareProfile/${compareTags.join('-')}`, undefined, { shallow: true });
+      router.push(`./comparePlayer/${compareTags.join('-')}`, undefined, { shallow: true });
     } else {
       toast.warn('Please enter clan tags');
     }

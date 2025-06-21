@@ -107,7 +107,7 @@ const InfoCard = ({ data }) => {
     if(compareTag){
       const compareTags = [data.tag.replace("#","") , compareTag];
       console.log(compareTags)
-    router.push(`/compareProfile/${compareTags.join('-')}`, undefined, { shallow: true });
+    router.push(`/comparePlayer/${compareTags.join('-')}`, undefined, { shallow: true });
     }else {
       toast.warn('Please enter player tags!');
     }

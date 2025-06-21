@@ -34,7 +34,7 @@ const InputForm = () => {
   };
   const handleChangeClan = (e) => setClanInfo(e.target.value);
   const handleSubmitClan = () => {
-    (clanInfo) ? (router.push(`./clan//${clanInfo}`, undefined, { shallow: true }), setButtonLoader(true)) : (toast.warn('Please enter clan tag'))
+    (clanInfo) ? (router.push(`./clan/${clanInfo}`, undefined, { shallow: true }), setButtonLoader(true)) : (toast.warn('Please enter clan tag'))
   };
 
   return (

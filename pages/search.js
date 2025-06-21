@@ -8,7 +8,7 @@ import { Classic, Lightbulb } from '@theme-toggles/react';
 import "@theme-toggles/react/css/Lightbulb.css"
 import { useState, useEffect } from 'react';
 
-const player = () => {
+const search = () => {
   const [isToggled, setToggle] = useState(false)
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
@@ -41,4 +41,4 @@ const player = () => {
   );
 }
 
-export default player;
+export default search;
