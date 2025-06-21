@@ -125,6 +125,13 @@ export const townHall = {
         url:"/assets/townHall/TH16_Main.png"
       }
     }
+  },
+  17: {
+    townhallweaponlevel: {
+      1: {
+        url: "/assets/townHall/TH17_Main.png"
+      }
+    }
   }
 };
 

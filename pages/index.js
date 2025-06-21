@@ -65,7 +65,7 @@ export default function Home({data}) {
       onPress: handleSearchCard,
       headerText: 'Search profile',
       subHeaderText: 'Enter clan or player tag',
-      imageSrc: '/assets/backgroundPng/MagicWardenCropped.png',
+      imageSrc: '/assets/backgroundPng/Searching.png',
       altText: 'Search card bg',
       icon:<IoSearchSharp />
     },
@@ -74,8 +74,8 @@ export default function Home({data}) {
       className: 'group threeDShadowLight bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-300/80 via-emerald-600/80 to-emerald-900 border-none rounded-[20px]',
       onPress: handleCompareCard,
       headerText: 'Compare profile',
-      subHeaderText: 'Enter two player tags to compare',
-      imageSrc: '/assets/backgroundPng/shadowRcCropped.png',
+      subHeaderText: 'Enter two player tag to compare',
+      imageSrc: '/assets/backgroundPng/ComparePlayer.png',
       altText: 'compare card bg',
       icon:<GoArrowSwitch />
     },
@@ -112,31 +112,31 @@ export default function Home({data}) {
               className={`z-10 gap-4 max-w-5xl flex flex-col md:flex-row rounded-3xl p-6 backdrop-blur-[4px] ${isDark ? "bg-gray-500/10 " : "bg-gray-500/10 "}`}>
                 <Grid.Container>
                   <Grid>
-                  <Text h2 weight="semibold" className="text-justify">Track and analyze your progress in Clash of Clans with ease. Simply enter your player tag or clan tag in the form below to retrieve valuable insights and statistics.</Text>
+                  <Text h2 weight="bold" className="text-justify">Clash ID adalah Project analisis kemajuan Anda di game Clash of Clans dengan mudah. Project ini saya kembangkan khusus untuk komunitas game coc Indonesia.</Text>
                   <Spacer />
                   </Grid>
                   <Grid>
-                  <Text h2 >With our Profile Tracker, you can:</Text>
+                  <Text h2 >Dengan menggunakan layanan ini kamu bisa:</Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="error" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>View your player profile information, including your level, trophies, and achievements.</Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Melihat informasi profil Anda dan pemain lain, termasuk level, trofi, achievement, dll.</Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="primary" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Monitor your clan's performance, such as its members, clan level, top members with war stars , etc.</Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Pantau performa klan Anda, seperti anggotanya, level klan, anggota teratas, dll.</Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="warning" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Compare your performance with other players and clans to stay competitive.</Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Bandingkan kinerja Anda dengan pemain dan klan lain untuk tetap kompetitif.</Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="secondary" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Analyze your attack and defense strategies to enhance your gameplay.<p className="text-violet-500 text-xs">coming soon ...</p></Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Analisis strategi serangan dan pertahanan Anda untuk meningkatkan permainan Anda.<p className="text-violet-500 text-xs">coming soon ...</p></Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="success" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Keep track of your progress over time with historical data and trends.<p className="text-violet-500 text-xs">coming soon ...</p></Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Pantau kemajuan game Anda dari waktu ke waktu dengan data ter-update.<p className="text-violet-500 text-xs">coming soon ...</p></Text>
                   </Grid>
                   </Grid.Container>
 
@@ -180,7 +180,7 @@ export default function Home({data}) {
 
             </div>
               <Text weight="thin" className="p-6 text-justify">
-              We're dedicated to continuously improving our Profile Tracker to meet the needs of Clash of Clans players like you. Stay tuned for exciting updates and new features!
+              Kami berkomitmen untuk terus meningkatkan Project ini agar dapat memenuhi kebutuhan pemain Clash of Clans seperti Anda. Nantikan pembaruan menarik dan fitur baru! - Salam hangat, MrLvn
               </Text>
               </section>
             <Spacer y={1}/>
