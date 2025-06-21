@@ -29,12 +29,12 @@ const InputForm = () => {
   
   const handleChange = (e) => setPlayerInfo(e.target.value);
   const handleSubmit = () => {
-    (playerInfo) ? (router.push(`./playerData/${playerInfo}`, undefined, { shallow: true }), setButtonLoader(true)
+    (playerInfo) ? (router.push(`./player/${playerInfo}`, undefined, { shallow: true }), setButtonLoader(true)
     ) : (toast.warn('Please enter your tag'))
   };
   const handleChangeClan = (e) => setClanInfo(e.target.value);
   const handleSubmitClan = () => {
-    (clanInfo) ? (router.push(`./clanData/${clanInfo}`, undefined, { shallow: true }), setButtonLoader(true)) : (toast.warn('Please enter clan tag'))
+    (clanInfo) ? (router.push(`./clan//${clanInfo}`, undefined, { shallow: true }), setButtonLoader(true)) : (toast.warn('Please enter clan tag'))
   };
 
   return (

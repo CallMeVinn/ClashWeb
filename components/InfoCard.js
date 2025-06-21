@@ -38,7 +38,7 @@ const InfoCard = ({ data }) => {
 
   const clanData = (data?.clan.tag).slice(1)
   const handleSubmitClan = () => {
-    (clanData) ? (router.push(`../clanData/${clanData}`, undefined, { shallow: true })) : (console.log('Please enter clan tag'))
+    (clanData) ? (router.push(`../clan//${clanData}`, undefined, { shallow: true })) : (console.log('Please enter clan tag'))
   }
   const [isLoading, setLoading] = useState(true);
   const [parent, enableAnimations] = useAutoAnimate(/* optional config */)
@@ -109,7 +109,7 @@ const InfoCard = ({ data }) => {
       console.log(compareTags)
     router.push(`/compareProfile/${compareTags.join('-')}`, undefined, { shallow: true });
     }else {
-      toast.warn('Please enter clan tags');
+      toast.warn('Please enter player tags!');
     }
 
   };

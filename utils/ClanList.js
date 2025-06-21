@@ -95,7 +95,7 @@ const ClanList = ({data,buttonState}) => {
   const playerInfo = removeHashIfPresent(data?.tag)
 
   const handleSubmitPlayer = () => {
-    (playerInfo) ? (router.push(`../playerData/${playerInfo}`, undefined, { shallow: true })
+    (playerInfo) ? (router.push(`../player/${playerInfo}`, undefined, { shallow: true })
     ) : (console.log('Please enter your tag'))
   };
 

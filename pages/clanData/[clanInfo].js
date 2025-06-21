@@ -30,7 +30,7 @@ const ClanInfo = ({ data }) => {
 //   const { clanInfo } = context.query;
 //   const options = {
 //     method: 'GET',
-//     url: `http://localhost:${process.env.PORT || 3000}/api/clanDatabase/${clanInfo}`,
+//     url: `http://localhost:${process.env.PORT || 3000}/api/clans/${clanInfo}`,
 //   };
 
 //   try {

@@ -6,25 +6,24 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="flex flex-row w-full justify-center p-6 gap-2">
-        <Link href="https://github.com/milinddhamu/coc-nextjs">
+        <Link href="/search">
             <Button
-              id="github"
-              iconOnly
-              bordered
-              css={{borderWidth:"0.5px",borderColor:"#6b728050"}}
-              color="neutral"
-              icon={<AiFillGithub className="scale-125"/>}
-            />
-          </Link>
-          <Link href="https://github.com/milinddhamu/coc-nextjs">  
-            <Button
-              id="twitter"
+              id="search"
               auto
               bordered
               css={{borderWidth:"0.5px",borderColor:"#6b728050"}}
-              color="neutral"
-              icon={<FaXTwitter className="scale-125"/>} >
-                @milind_dhamu
+              color="neutral" >
+                Search
+            </Button>
+          </Link>
+          <Link href="/compare">  
+            <Button
+              id="compare"
+              auto
+              bordered
+              css={{borderWidth:"0.5px",borderColor:"#6b728050"}}
+              color="neutral" >
+                Compare
             </Button>
             </Link>
       </div>

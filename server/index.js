@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 app.prepare().then(() => {
   const server = express();
 
-  server.get('/api/clanDatabase/:clanInfo', async (req, res) => {
+  server.get('/api/clans/:clanInfo', async (req, res) => {
     const { clanInfo } = req.params;
     const options = {
       method: 'GET',

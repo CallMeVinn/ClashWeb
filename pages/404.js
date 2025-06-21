@@ -26,15 +26,15 @@ const NotFound = () => {
               css={{borderWidth:"0.5px",borderColor:"#6b728050"}}
               color="neutral"
               onPress={()=> router.push("/")}
-            >Home</Button>
-            <Button
+            >Back to Home</Button>
+            {/*<Button
               id="home"
               auto
               bordered
               css={{borderWidth:"0.5px",borderColor:"#6b728050"}}
               color="neutral"
-              onPress={()=> router.push("/player")}
-            >Find Player/Clan</Button>
+              onPress={()=> router.push("/search")}
+            >Find Player/Clan</Button>*/}
     </div>
     </main>
     </>

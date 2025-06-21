@@ -34,7 +34,7 @@ const PlayerInfo = ({ data }) => {
 //   const options = {
 //     method: 'GET',
 //     // url: `http://localhost:${process.env.PORT || 3000}/api/playerDatabase/${playerInfo}`,
-//     url: `api/playerData/query=${playerInfo}`
+//     url: `api/player/query=${playerInfo}`
 //   };
 
 //   try {

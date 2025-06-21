@@ -83,7 +83,7 @@ const teams = () => {
       <main className="flex flex-col min-w-screen items-center">
         {!(teamList?.length !== 0) ? 
       (
-      <div className="flex min-h-screen min-w-screen items-center"><Text size={20}>Visit your <Link underline href="/player" color="secondary">
+      <div className="flex min-h-screen min-w-screen items-center"><Text size={20}>Visit your <Link underline href="/search" color="secondary">
           Clan Page
         </Link> to create a new team</Text></div>
       ) : (
@@ -102,7 +102,7 @@ const teams = () => {
                         {a.players?.map((player, index) => {
                           const PLAYER_TAG = player.replace('#','')
                           return (
-                            <Link href={`/playerData/${PLAYER_TAG}`}>
+                            <Link href={`/player/${PLAYER_TAG}`}>
                             <Badge key={player} variant="flat">{player}</Badge>
                             </Link>
                           )

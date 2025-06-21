@@ -57,16 +57,16 @@ export default function Home({data}) {
   }, [])
 
   const handleCompareCard = () => router.push("/compareprofile");
-  const handleSearchCard = () => router.push("/player");
+  const handleSearchCard = () => router.push("/search");
   const cardData = [
     {
       key: 'search-card',
       className: 'group threeDShadowLight bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-300/80 via-violet-600/80 to-violet-900 border-none rounded-[20px]',
       onPress: handleSearchCard,
-      headerText: 'Search for profile',
+      headerText: 'Search profile',
       subHeaderText: 'Enter your clan or profile tag',
-      imageSrc: '/assets/backgroundPng/MagicWardenCropped.png',
-      altText: 'Search card bg',
+      //imageSrc: '/assets/backgroundPng/MagicWardenCropped.png',
+      //altText: 'Search card bg',
       icon:<IoSearchSharp />
     },
     {
@@ -74,9 +74,9 @@ export default function Home({data}) {
       className: 'group threeDShadowLight bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-300/80 via-emerald-600/80 to-emerald-900 border-none rounded-[20px]',
       onPress: handleCompareCard,
       headerText: 'Compare profile',
-      subHeaderText: 'Enter two tags to compare',
-      imageSrc: '/assets/backgroundPng/shadowRcCropped.png',
-      altText: 'compare card bg',
+      subHeaderText: 'Enter two player tags to compare',
+      //imageSrc: '/assets/backgroundPng/shadowRcCropped.png',
+      //altText: 'compare card bg',
       icon:<GoArrowSwitch />
     },
   ];

@@ -17,7 +17,7 @@ const NavbarMain = () => {
     },
     {
       name: "Search Clan/Player",
-      link: "/player"
+      link: "/search"
     },
     {
       name: "Compare Profile",
@@ -33,7 +33,7 @@ const NavbarMain = () => {
     },
     {
       name: "Sample Profile",
-      link: "/playerData/2LQUJU9YC"
+      link: "/player/2LQUJU9YC"
     },
     {
       name: "Global chat",
@@ -55,11 +55,11 @@ const NavbarMain = () => {
             Home
           </Navbar.Link>
           {/* <Navbar.Link href="/teams">My Teams</Navbar.Link> */}
-          <Navbar.Link href="/player" css={{'&:focus': {
+          <Navbar.Link href="/search" css={{'&:focus': {
             outlineColor: '$pink400',
-          },}}>Search Player</Navbar.Link>
-          {/*<Navbar.Link href="/playerData/2LQUJU9YC">Sample profile</Navbar.Link> */}
-          <Navbar.Link href="/compareprofile">Compare Profile</Navbar.Link>
+          },}}>Search</Navbar.Link>
+          {/*<Navbar.Link href="/player/2LQUJU9YC">Sample profile</Navbar.Link> */}
+          <Navbar.Link href="/compareprofile">Compare</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
         {/* <Navbar.Item>
