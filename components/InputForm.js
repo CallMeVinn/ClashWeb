@@ -87,7 +87,7 @@ const InputForm = () => {
               className="drop-shadow-lg shadow-amber-600"
             >Player Tag</Text>
           </Card>
-          <Text weight="hairline" size={10} className="uppercase pt-1 text-center text-white">Tekan untuk berganti pencarian Clan/Player</Text>
+          <Text weight="hairline" size={10} className="uppercase pt-1 text-center text-white">Tekan tombol untuk beralih pencarian Clan/Player</Text>
         </Container>
         <Spacer y={1} />
         <h1>{toggle}</h1>
