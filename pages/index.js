@@ -65,7 +65,7 @@ export default function Home({data}) {
       onPress: handleSearchCard,
       headerText: 'Search profile',
       subHeaderText: 'Enter clan or player tag',
-      imageSrc: '/assets/backgroundPng/Searching.png',
+      imageSrc: '/assets/backgroundPng/Queen.png',
       altText: 'Search card bg',
       icon:<IoSearchSharp />
     },
@@ -75,7 +75,7 @@ export default function Home({data}) {
       onPress: handleCompareCard,
       headerText: 'Compare profile',
       subHeaderText: 'Enter two player tag to compare',
-      imageSrc: '/assets/backgroundPng/ComparePlayer.png',
+      imageSrc: '/assets/backgroundPng/Troops.png',
       altText: 'compare card bg',
       icon:<GoArrowSwitch />
     },
@@ -112,7 +112,7 @@ export default function Home({data}) {
               className={`z-10 gap-4 max-w-5xl flex flex-col md:flex-row rounded-3xl p-6 backdrop-blur-[4px] ${isDark ? "bg-gray-500/10 " : "bg-gray-500/10 "}`}>
                 <Grid.Container>
                   <Grid>
-                  <Text h2 weight="semibold" className="text-justify">Clash ID adalah Project analisis kemajuan Anda di game Clash of Clans dengan mudah. Project ini saya kembangkan khusus untuk komunitas game coc Indonesia.</Text>
+                  <Text h2 weight="semibold" className="text-justify">Clash ID adalah Project analisis kemajuan Anda di game Clash of Clans dengan mudah. Project ini dikembangkan khusus untuk komunitas game coc Indonesia.</Text>
                   <Spacer />
                   </Grid>
                   <Grid>
