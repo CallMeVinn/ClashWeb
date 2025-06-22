@@ -277,7 +277,7 @@ const InfoCard = ({ data }) => {
             fullWidth
             color="warning"
             size="lg"
-            placeholder="2LQUJU9YC"
+            placeholder="PVQ2UYCPC"
             contentLeft="#"
             onChange={handleTagInputChange}
           />

@@ -112,7 +112,7 @@ export default function Home({data}) {
               className={`z-10 gap-4 max-w-5xl flex flex-col md:flex-row rounded-3xl p-6 backdrop-blur-[4px] ${isDark ? "bg-gray-500/10 " : "bg-gray-500/10 "}`}>
                 <Grid.Container>
                   <Grid>
-                  <Text h2 weight="bold" className="text-justify">Clash ID adalah Project analisis kemajuan Anda di game Clash of Clans dengan mudah. Project ini saya kembangkan khusus untuk komunitas game coc Indonesia.</Text>
+                  <Text h2 weight="semibold" className="text-justify">Clash ID adalah Project analisis kemajuan Anda di game Clash of Clans dengan mudah. Project ini saya kembangkan khusus untuk komunitas game coc Indonesia.</Text>
                   <Spacer />
                   </Grid>
                   <Grid>
@@ -120,19 +120,19 @@ export default function Home({data}) {
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="error" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Melihat informasi profil Anda dan pemain lain, termasuk level, trofi, achievement, dll.</Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Melihat informasi profil Anda dan pemain lain.</Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="primary" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Pantau performa klan Anda, seperti anggotanya, level klan, anggota teratas, dll.</Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Pantau performa klan Anda, seperti level klan, anggota teratas, dll.</Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="warning" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Bandingkan kinerja Anda dengan pemain dan klan lain untuk tetap kompetitif.</Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Bandingkan kinerja Anda dengan pemain dan klan lain.</Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="secondary" variant="dot" />
-                    <Text className="text-justify" css={{ ml: "$4" }}>Analisis strategi serangan dan pertahanan Anda untuk meningkatkan permainan Anda.<p className="text-violet-500 text-xs">coming soon ...</p></Text>
+                    <Text className="text-justify" css={{ ml: "$4" }}>Analisis strategi serangan dan pertahanan untuk meningkatkan permainan Anda.<p className="text-violet-500 text-xs">coming soon ...</p></Text>
                   </Grid>
                   <Grid xs={12} alignItems="center">
                     <Badge color="success" variant="dot" />

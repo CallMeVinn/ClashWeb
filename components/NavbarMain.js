@@ -33,7 +33,7 @@ const NavbarMain = () => {
     },
     {
       name: "Sample Profile",
-      link: "/player/2LQUJU9YC"
+      link: "/player/PVQ2UYCPC"
     },
     {
       name: "Global chat",
@@ -58,7 +58,7 @@ const NavbarMain = () => {
           <Navbar.Link href="/search" css={{'&:focus': {
             outlineColor: '$pink400',
           },}}>Search</Navbar.Link>
-          {/*<Navbar.Link href="/player/2LQUJU9YC">Sample profile</Navbar.Link> */}
+          {/*<Navbar.Link href="/player/PVQ2UYCPC">Sample profile</Navbar.Link> */}
           <Navbar.Link href="/compare">Compare</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>

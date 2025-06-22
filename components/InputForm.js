@@ -60,7 +60,7 @@ const InputForm = () => {
           weight='extrabold'
           className={`bg-gradient-to-r from-lime-400 via-yellow-400 to-yellow-300 bg-clip-text text-transparent drop-shadow-lg animate-text`}
           aria-label="welcome"
-        >Welcome Chief !</Text>
+        >Selamat Datang Chief!</Text>
         <Spacer y={1} />
         <Container>
           <Card
@@ -87,15 +87,15 @@ const InputForm = () => {
               className="drop-shadow-lg shadow-amber-600"
             >Player Tag</Text>
           </Card>
-          <Text weight="hairline" size={10} className="uppercase pt-1 text-center text-white">click to switch between player/clan tag</Text>
+          <Text weight="hairline" size={10} className="uppercase pt-1 text-center text-white">Tekan untuk berganti pencarian Clan/Player</Text>
         </Container>
         <Spacer y={1} />
         <h1>{toggle}</h1>
-        {(toggle) ? <Container key='player input' className="flex flex-col sm:flex-row items-center justify-center">
+        {(toggle) ? <Container key='player input' classNa  me="flex flex-col sm:flex-row items-center justify-center">
           <Input
             size='lg'
             labelLeft="#"
-            placeholder="2LQUJU9YC"
+            placeholder="PVQ2UYCPC"
             className="font-bold drop-shadow-md w-full sm:min-w-max"
             onChange={handleChange}
             onKeyDown={handleKeyDown}
@@ -124,7 +124,7 @@ const InputForm = () => {
             <Input
               size='lg'
               labelLeft="#"
-              placeholder="2LQUJU9YC"
+              placeholder="2Q082JYVY"
               className="flex font-bold drop-shadow-md w-full sm:min-w-max"
               onKeyDown={handleKeyDownClan}
               onChange={handleChangeClan}
